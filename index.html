@@ -55,6 +55,7 @@
         border: 4px solid;
         min-width: 200px;
         text-align: center;
+                letter-spacing: 1px;
         padding: 19px 0;
         position: relative;
         background-color: transparent;
@@ -121,17 +122,19 @@
     }
 
     .site-btn:hover {
-        background-color:#284864 ;
+        border: 4px solid  black;
+
+        background-color: #0f0e0e ;
         color: aliceblue;
         
     }
 
-    .colo:hover {
+/* .colo:hover {
         background-color: #284864;
 color: aliceblue;
     }
 
-
+*/
     .rotate {
         animation: rotation 3s infinite linear;
 
@@ -373,6 +376,7 @@ color: aliceblue;
     }
     
     
+
 </style>
 
 <body>
@@ -386,8 +390,8 @@ color: aliceblue;
                 <div class="logo mr-auto" style="margin-left: -3%;">
                     <!-- <h1 class="text-dark"><a href="index.html">Bocor<span>.</span></a></h1>-->
                     <!-- Uncomment below if you prefer to use an image logo -->
-                    <img src="assets/img/LOGO.png" style="background-color: #0f0e0e" class="animated fadeIn delay-1s" alt="" class="img-thumbnail">
-                    <img src="assets/img/2.jpg" width="230px" height="100px" class="animated fadeIn delay-1s" alt="" class="img-thumbnail">
+                    <img src="assets/img/LOGO.png" style="background-color: #0f0e0e" class="animated slideInDown delay-1s" alt="" class="img-thumbnail">
+                    <img src="assets/img/2.jpg" width="230px" height="100px" class="animated slideInDown delay-1s" alt="" class="img-thumbnail">
 
 
                 </div>
@@ -654,13 +658,13 @@ color: aliceblue;
 
 
 
-            <section id="services" class="about backgroundimg2">
+            <section id="services" class="about backgroundimg2" style="background-color: #0f0e0e">
 
 
                 <div class="container">
                     <div class="section-title">
 
-                        <h1 data-aos="fade-in" style="color: black;font-size: 50px;display: inline-block;font-family: serif;" class="colo">Appreciation</h1>
+                        <h1 data-aos="fade-in" style="color: aliceblue;font-size: 50px;display: inline-block;font-family:sans-serif;" class="colo">Appreciation</h1>
 
 
                     </div>
@@ -673,9 +677,9 @@ color: aliceblue;
                         </div>
                         <div class="col-md-7 pt-4" data-aos="fade-left">
                             <h1 style="color: darkorange;font-size:25px;font-family: serif">Hon'ble Prime Minister Of India-</h1>
-                            <h2 style="color: #213b52;font-family: serif"> MR. NARENDRA MODI</h2>
-                            <p style="color: grey;font-family: serif">
-                                Featured in <strong style="color:darkorange">Mann ki baat – 27 January 2019</strong>
+                            <h2 style="color: rgba(240, 248, 255, 0.81);font-family:serif;letter-spacing: 1px;"> Mr. NARENDRA MODI</h2>
+                            <p style="color: grey;font-family: serif;letter-spacing: 1px;padding-top: 3%;">
+                                Featured in <strong style="color:darkorange;">Mann ki baat – 27 January 2019</strong>
                                 Hon'ble Prime Minister of India (PMO) spoke about our Team and Achievements at,
                                 Mann ki Baat is an Indian programme hosted by Hon'ble Prime Minister Narendra Modi in
                                 which he addresses the people of the nation on All India Radio.
@@ -697,8 +701,8 @@ color: aliceblue;
                         </div>
                         <div class="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-right">
                             <h1 style="color: darkorange;font-size:25px;font-family: serif" ;>Chairperson of the Indian Space Research Organisation(ISRO)-</h1>
-                            <h2 style="color: #213b52;font-family: serif"> DR. K.SIVAN</h2>
-                            <p style="color: grey;font-family: serif">
+                            <h2 style="color: rgba(240, 248, 255, 0.81);letter-spacing: 1px;font-family: serif"> Dr. K.SIVAN</h2>
+                            <p style="color: grey;font-family: serif;letter-spacing: 1px;padding-top: 3%;">
                                 Chairperson of the Indian Space Research Organisation(ISRO)-DR. K.SIVAN speaking about openning a <strong style="color: darkorange">Inncubation center at VSSUT,BURLA.</strong>
                             </p>
                             <!--<p>
@@ -718,8 +722,8 @@ color: aliceblue;
                         </div>
                         <div class="col-md-7 pt-5" data-aos="fade-left">
                             <h1 style="color: darkorange;font-size:25px;font-family: serif">Hon'ble Union Minister of Petroleum &amp; Natural Gas and Steel-</h1>
-                            <h2 style="color: #213b52;font-family: serif">SHRI DHARMENDRA PRADHAN</h2>
-                            <p style="color: grey;font-family: serif">Hon'ble Union Minister of Petroleum &amp; Natural Gas and Steel, Shri Dharmendra
+                            <h2 style="color: rgba(240, 248, 255, 0.81);letter-spacing: 1px;font-family: serif">Sri DHARMENDRA PRADHAN</h2>
+                            <p style="color: grey;font-family: serif;letter-spacing: 1px;padding-top: 3%;">Hon'ble Union Minister of Petroleum &amp; Natural Gas and Steel, Shri Dharmendra
                                 Pradhan spoke about Team VSLV of VSSUT Burla (Odisha) at the National Startup
                                 Conclave organised in New Delhi, by Odisha Corporate Foundation and MSME (Govt
                                 of India)</p>
@@ -747,26 +751,37 @@ color: aliceblue;
                         <br><br>
                         <div class="row">
                             <div class="col-md-3 colo" data-aos="fade-in">
-                                <a href="objectivesupdated.html"> <img src="assets/img/img_451960.png" height="200px" width="200px" class="img_fluid"></a>
-                                <h1 style="color: black">Objectives</h1>
+                                <div class="cards">
+                                   <a href="objectivesupdated.html"> <img src="assets/img/img_451960.png" height="100px" width="100px" class="img_fluid" style="margin:15% 20%"></a>
+                                <h2 style="color: black;padding-bottom: 20px;font-size: 20px;">Objectives</h2> 
+                                </div>
+                                
 
                             </div>
                             <br>
                             <div class="col-md-3 colo" data-aos="fade-in">
-
-                                <a href="testsupdated.html"> <img src="assets/img/icon_test.png" height="200px" width="200px" class="img_fluid"></a>
-                                <h1 style="color: black">Tests Done</h1>
+                                <div class="cards">
+                                    <a href="testsupdated.html"> <img src="assets/img/icon_test.png" height="100px" width="100px" class="img_fluid" style="margin:15% 20%"></a>
+                                <h2 style="color: black;padding-bottom: 20px;font-size: 20px;">Tests</h2>
+                                </div>
+                                
 
                             </div>
                             <br>
                             <div class="col-md-3 colo" data-aos="fade-in">
-                                <a href="IICFinal/blog.html"> <img src="assets/img/374313-200.png" height="200px" width="200px" class="img_fluid"></a>
-                                <h1 style="color: black">Achievements</h1>
+                                <div class="cards">
+                                    <a href="IICFinal/blog.html"> <img src="assets/img/374313-200.png" height="100px" width="100px" class="img_fluid" style="margin:15% 20%"></a>
+                                <h2 style="color: black;padding-bottom: 20px;font-size: 20px;">Achievements</h2>
+                                </div>
+                                
                             </div>
                             <br>
                             <div class="col-md-3 colo" data-aos="fade-in">
-                                <a href="teamupdated.html"> <img src="assets/img/16-512.png" height="200px" width="200px" class="img_fluid"></a>
-                                <h1 style="color: black">Team</h1>
+                                <div class="cards">
+                                    <a href="teamupdated.html"> <img src="assets/img/16-512.png" height="100px" width="100px" class="img_fluid" style="margin:15% 20%"></a>
+                                <h2 style="color: black;padding-bottom: 20px;font-size: 20px;">Team</h2>
+                                </div>
+                                
                             </div>
                             <br>
                         </div>
@@ -786,12 +801,12 @@ color: aliceblue;
 
             </section>
             <!-- ======= Contact Section ======= -->
-            <section id="contact" class="contact backgroundimg3">
+            <section id="contact" class="contact backgroundimg3" style="background-color:#e2e2e2;margin-bottom: -14%">
                 <div class="container">
 
                     <div class="section-title">
-                        <h1 data-aos="fade-in" style="color: black; background-color: greenyellow;display: inline-block;font-family: serif" ;>Contact Us</h1>
-                        <p data-aos="fade-in" style="color: black;font-family: serif">For any queries please free to contact us</p>
+                        <h1 data-aos="fade-in" style="color: black; display: inline-block;font-family:sans-serif" ;>Contact Us</h1>
+                        <p data-aos="fade-in" style="color: rgba(0, 0, 0, 0.64);font-family: serif">For any queries please free to contact us</p>
                     </div>
 
                     <div class="row">
@@ -801,27 +816,27 @@ color: aliceblue;
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="info-box" data-aos="fade-up">
-                                        <i class="bx bx-map"></i>
+                                        <i class="bx bx-map" style="color: black;font-size: 50px"></i>
                                         <h3>Our Address</h3>
                                         <div class="embed-responsive embed-responsive-4by3">
                                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3712.2708391034384!2d83.90156731424685!3d21.497108885746616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a213da4ec28af2d%3A0xb33a5cc9af8c33c7!2sVeer%20Surendra%20Sai%20University%20of%20Technology!5e0!3m2!1sen!2sin!4v1584687510478!5m2!1sen!2sin" class="embed-responsive-item" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                               <!-- <div class="col-md-6">
                                     <div class="info-box mt-4" data-aos="fade-up" data-aos-delay="100">
-                                        <i class="bx bx-envelope"></i>
+                                        <i class="bx bx-envelope" style="color: black;"></i>
                                         <h3>Email Us</h3>
                                         <p>info@example.com<br>contact@example.com</p>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-6" style="float: right;">
                                     <div class="info-box mt-4" data-aos="fade-up" data-aos-delay="100">
-                                        <i class="bx bx-phone-call"></i>
+                                        <i class="bx bx-phone-call" style="color: black;"></i>
                                         <h3>Call Us</h3>
                                         <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
 
                         </div>
@@ -851,8 +866,25 @@ color: aliceblue;
                                     <div class="error-message"></div>
                                     <div class="sent-message">Your message has been sent. Thank you!</div>
                                 </div>
-                                <div class="text-center"><button type="submit">Send Message</button></div>
+                                <div class="text-center"><button type="submit" class="send-btn" style="background-color:#0f0e0e">Send Message</button></div>
                             </form>
+                            <div class="row" style="margin-bottom: 20%">
+                                <div class="col-md-6">
+                                    <div class="info-box mt-4" data-aos="fade-up" data-aos-delay="100">
+                                        <i class="bx bx-envelope" style="color: black;"></i>
+                                        <h3>Email Us</h3>
+                                        <p>info@example.com<br>contact@example.com</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="info-box mt-4" data-aos="fade-up" data-aos-delay="100">
+                                        <i class="bx bx-phone-call" style="color: black;"></i>
+                                        <h3>Call Us</h3>
+                                        <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
                         </div>
 
                     </div>
@@ -899,11 +931,11 @@ color: aliceblue;
         </div>
 
 
-        <div class="container footer-bottom clearfix">
+        <div class="container-fluid footer-bottom clearfix" style="background-color: #0f0e0e;">
 
-            <div class="copyright">
+            <div class="copyright" style="letter-spacing: 1px;">
 
-                &copy; Copyright <strong><span>II&copy;</span></strong>. All Rights Reserved
+                &copy; Copyright <strong style="color: #fdd067"><span>II&copy;</span></strong><br/> <div style="font-size: 10px">All Rights Reserved</div>
             </div>
             <div class="credits">
                 <!-- All the links in the footer should remain intact. -->
@@ -911,7 +943,7 @@ color: aliceblue;
                 <!-- Licensing information: https://bootstrapmade.com/license/ -->
                 <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bocor-bootstrap-template-nice-animation/ -->
 
-                Designed by <a href="cur.html">Team VSLV</a>
+                Designed by <a href="cur.html" class="slideInRight"><strong>Team VSLV</strong></a>
             </div>
         </div>
     </footer><!-- End Footer -->
@@ -919,9 +951,6 @@ color: aliceblue;
     <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
     <!-- Vendor JS Files -->
-
-
-
     <script src="assets/vendor/jquery/jquery.min.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
