@@ -63,11 +63,13 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #header {
   height: 80px;
+  width: 100%;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
   padding: 16px 0;
     background: #213b52;
+    position: fixed;
 }
 
 #header .logo h1 {
@@ -94,6 +96,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   margin: 0;
   max-height: 40px;
+  position: fixed;
 }
 
 /*--------------------------------------------------------------
@@ -127,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   color: snow;
      border: 2px solid transparent;
-     
+
     letter-spacing: 1px;
   padding: 10px 15px;
   transition: all 0.5s;
@@ -238,7 +241,7 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav-toggle {
     top: 14px;
     right: 14px;
-    position: absolute;
+    position: fixed;
   z-index: 9998;
   border: 0;
   background: none;
@@ -360,6 +363,17 @@ margin: 10% auto;
   color: #fff;
 }
 
+/* slide section/ carousel section  */
+#myslide{
+  margin-top: 5%;
+}
+
+@media (max-width: 768px) {
+  #myslide{
+    margin-top: 16%;
+  }
+}
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -368,7 +382,7 @@ margin: 10% auto;
   padding: 0 0 0 0;
   background-color: #213b52;
     background-size: 100%;
-    
+
 
 
 }
