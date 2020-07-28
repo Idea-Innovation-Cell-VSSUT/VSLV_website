@@ -3,4 +3,4 @@
 <p><a href=https://github.com/prasenjitghose36>Prasenjit Ghose</a></p>
 <p><a href=https://github.com/rajdas2001>Raj Das</a></p>
 <p><a href=https://github.com/patelaryan7751>Aryan Patel</a></p>
-<p><a herf=https://github.com/chandrasekhar2039>Chandrasekhar Samanta </a></p>
+<p><a href=https://github.com/chandrasekhar2039>Chandrasekhar Samanta </a></p>
