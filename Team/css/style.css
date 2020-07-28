@@ -114,7 +114,7 @@ i {
 
 .container .card .face.face1 {
   position: relative;
-  background: #ade498;
+  background: black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -123,7 +123,7 @@ i {
 }
 
 .container .card:hover .face.face1 {
-  background: #ff0057;
+  background: black;
   transform: translateY(0px);
 }
 
