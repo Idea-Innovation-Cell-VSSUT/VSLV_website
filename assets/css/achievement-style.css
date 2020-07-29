@@ -14,19 +14,20 @@
     border: 1px solid transparent;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23);
     transition: all 0.5s;
+    height: 90%;
 }
 
 .card:hover{
     transform: translateY(-20px);
+     box-shadow: 0 10px 20px rgba(0,0,0,0.35),0 6px 6px rgba(0,0,0,0.50);
 }
 .card-body h4{
     color: azure;
     font-weight: 100;
+    font-size: 18px;
+    letter-spacing: 0.5px;
 }
 
-.card-body p{
-    color: rgba(240, 248, 255, 0.38);
-}
 
 .lead{
     font-weight: 700;
