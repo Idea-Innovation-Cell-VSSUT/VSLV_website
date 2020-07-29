@@ -1,6 +1,8 @@
 
 /* Main CSS  */
-
+*{
+    font-family: sans-serif;
+}
 
 .card-body{
     background-color: #0f0e0e;
@@ -26,7 +28,9 @@
     color: rgba(240, 248, 255, 0.38);
 }
 
-
+.lead{
+    font-weight: 700;
+}
 .jumbotron {
             padding-top: 3rem;
             padding-bottom: 3rem;
