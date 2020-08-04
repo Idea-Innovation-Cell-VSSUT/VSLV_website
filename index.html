@@ -30,6 +30,8 @@
 
     <link rel="stylesheet" href="./animate.css-master/animate.css">
     <link rel="stylesheet" href="./Hover-master/css/hover.css">
+     <link href="./loader/css/style.css" rel="stylesheet">
+    
 
     <link rel="manifest" href="manifest.json">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -378,8 +380,20 @@ color: aliceblue;
 
 
 </style>
+     <script>
+    
+        window.onload=function ()
+        {
+            var tyui=document.getElementById("preloader");
+            tyui.style.display="none";
+        }
+    
+    
+    </script>
 
 <body>
+        <div id="preloader" style="display: block" class="contain">
+     </div>
 
     <!-- ======= Header ======= -->
     <header id="header" style="background-color: #0f0e0e">
