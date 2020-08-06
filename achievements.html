@@ -22,10 +22,40 @@
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/achievement-style.css">
+    <link href="./loader/css/style.css" rel="stylesheet">
+    <style>
+     @media (min-width:721px)
+    {
+        .check{
+            display: none;
+        }
+        }
+        @media (max-width:720px)
+    {
+        .check2{
+            display: none;
+        }
+        }
+    
+    
+    
+    </style>
+         <script>
+    
+        window.onload=function ()
+        {
+            var tyui=document.getElementById("preloader");
+            tyui.style.display="none";
+        }
+    
+    
+    </script>
 
 </head>
 
 <body>
+    <div id="preloader" style="display: block" class="contain">
+     </div>
 
     <header id="header" style="background-color: #0f0e0e">
 
@@ -55,16 +85,36 @@
     </header>
 
     <main role="main">
+        
 
-        <section class="jumbotron text-center" style="background-color: #0f0e0e;">
+        <section class="jumbotron text-center check2" style="background-image: url(img/img-2.jpg);background-size: 100%; background-repeat: no-repeat;">
+            <br>
+            
             <div class="container">
                 <h1 style="color: rgba(240, 248, 255, 0.85)" data-aos="fade-left">Our Achievements</h1>
-                <p class="lead text-muted" data-aos="fade-right" style="padding-top:2%;">Have a look at what we have achieved so far...</p>
+                <p  data-aos="fade-right" style="padding-top:2%; color: aliceblue;font-size: 20px">Have a look at what we have achieved so far...</p>
+                <br> <br> <br> <br> <br> <br> <br> <br> <br> <br><a href="#jj"  class="btn btn-info">Explore Us</a> <br> <br>
+                
+              
+            </div>
+
+        </section>
+        <section class="jumbotron text-center check" style="background-image: url(img/try.png);background-size: 100%; background-repeat: no-repeat;height: 100%">
+            
+            
+            <div class="container">
+                <br>
+                <h1 style="color: rgba(240, 248, 255, 0.85)" data-aos="fade-left">Our Achievements</h1>
+                <p  data-aos="fade-right" style="padding-top:2%; color: aliceblue">Have a look at what we have achieved so far...</p>
+                <br> <br> <br>
+                <br> <br> <br> <br> <br> <br> <br> <br> <br> <a href="#jj"  class="btn btn-info">Explore Us</a>
+                
+              
             </div>
 
         </section>
 
-        <div class="album py-5 bg-light">
+        <div class="album py-5 bg-light" id="jj">
             <div class="container">
 
                 <div class="row">
@@ -91,8 +141,7 @@
                             <img src="IICFinal/img/Achieve/img1a.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225">
 
                             <div class="card-body" >
-                                <h4 class="card-title">Our Team VSLV interacted with Dr. Jitendra Singh Ji, Hon'ble Union Minister of State for Prime
-                                    Minister Office, Personnel, Public Grievances &amp; Pensions, Dept of Atomic Energy &amp; Space ISRO</h4>
+                                <h4 class="card-title">Our Team VSLV interacted with Dr. Jitendra Singh Ji, Hon'ble Union Minister of State,Dept of Atomic Energy &amp; Space ISRO.</h4>
 
                                 <div class="d-flex justify-content-between align-items-center">
 
@@ -104,10 +153,10 @@
 
                     <div class="col-md-4" data-aos="fade-up">
                         <div class="card mb-4 shadow-m">
-                            <img src="IICFinal/img/Achieve/img2.png" class="bd-placeholder-img card-img-top" width="100%" height="225">
+                            <img src="IICFinal/img/Achieve/img2.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225">
 
                             <div class="card-body" >
-                                <h4 class="card-title">Our Team VSLV interacted with Shri.Dharmendra Pradhan ji, Hon'ble Union Minister of Steel & Ministry of Petroleum and Natural Gas, Govt of India.</h4>
+                                <h4 class="card-title">Our Team VSLV interacted with Shri.Dharmendra Pradhan ji, Hon'ble Union Minister of Steel &amp; Ministry of Petroleum and Natural Gas, Govt of India.</h4>
 
                                 <div class="d-flex justify-content-between align-items-center">
 
@@ -136,7 +185,7 @@
 
                     <div class="col-md-4" data-aos="fade-up">
                         <div class="card mb-4 shadow-m">
-                            <img src="IICFinal/img/Achieve/l12.png" class="bd-placeholder-img card-img-top" width="100%" height="225">
+                            <img src="IICFinal/img/Achieve/l12.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225">
 
                             <div class="card-body">
                                 <h4 class="card-title">Our team was recently Invited to be a part of the
@@ -153,7 +202,7 @@
 
                     <div class="col-md-4" data-aos="fade-up">
                         <div class="card mb-4 shadow-m">
-                            <img src="IICFinal/img/Achieve/l13.png" class="bd-placeholder-img card-img-top" width="100%" height="225">
+                            <img src="IICFinal/img/Achieve/l13.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225">
 
                             <div class="card-body">
                                 <h4 class="card-title">Team VSLV was invited to ”Young
@@ -169,7 +218,7 @@
 
                     <div class="col-md-4" data-aos="fade-up">
                         <div class="card mb-4 shadow-m">
-                            <img src="IICFinal/img/Achieve/img5.png" class="bd-placeholder-img card-img-top" width="100%" height="225">
+                            <img src="IICFinal/img/Achieve/img5.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225">
 
                             <div class="card-body">
                                 <h4 class="card-title">Our VSLV Team interacted with Dr. K Sivan</h4>
@@ -201,11 +250,11 @@
 
                     <div class="col-md-4" data-aos="fade-up">
                         <div class="card mb-4 shadow-m">
-                            <img src="IICFinal/img/Achieve/img11.png" class="bd-placeholder-img card-img-top" width="100%" height="225">
+                            <img src="IICFinal/img/Achieve/img11.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225">
 
                             <div class="card-body">
                                 <h4 class="card-title">Our team of 10 members (pre-final year undergraduates) underwent a month long training and
-                                    project work at DRDOIntegrated Test Range, Chandipur</h4>
+                                    project work at DRDO Integrated Test Range, Chandipur</h4>
 
                                 <div class="d-flex justify-content-between align-items-center">
 
@@ -220,7 +269,7 @@
                             <img src="IICFinal/img/Achieve/img9.png" class="bd-placeholder-img card-img-top" width="100%" height="225">
 
                             <div class="card-body">
-                                <h4 class="card-title">Our Team VSLV had a meeting with ISRO High Officials</h4>
+                                <h4 class="card-title">Our Team VSLV had a meeting with ISRO Officials</h4>
 
                                 <div class="d-flex justify-content-between align-items-center">
 
@@ -232,10 +281,10 @@
 
                     <div class="col-md-4" data-aos="fade-up">
                         <div class="card mb-4 shadow-m">
-                            <img src="IICFinal/img/Achieve/imgE10.png" class="bd-placeholder-img card-img-top" width="100%" height="225">
+                            <img src="IICFinal/img/Achieve/imgE10.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225">
 
                             <div class="card-body">
-                                <h4 class="card-title">Our VSLVTeam, participated in DRDO International Conference</h4>
+                                <h4 class="card-title">Our VSLV Team, participated in DRDO International Conference</h4>
 
                                 <div class="d-flex justify-content-between align-items-center">
 
@@ -250,8 +299,7 @@
                             <img src="IICFinal/img/Achieve/img7.png" class="bd-placeholder-img card-img-top" width="100%" height="225">
 
                             <div class="card-body">
-                                <h4 class="card-title">The contingent of VSLV Team got the opportunity to present the Indigenous Technology on
-                                    India's 70th Republic Day at the State Parade Bhubaneswar (Odisha).</h4>
+                                <h4 class="card-title">The contingent of VSLV Team got the opportunity to represent the Indigenous Technology on India's 70th Republic Day at the State Parade Bhubaneswar (Odisha).</h4>
 
                                 <div class="d-flex justify-content-between align-items-center">
 
@@ -263,11 +311,11 @@
 
                     <div class="col-md-4" data-aos="fade-up">
                         <div class="card mb-4 shadow-m">
-                            <img src="IICFinal/img/Achieve/img6.png" class="bd-placeholder-img card-img-top" width="100%" height="225">
+                            <img src="IICFinal/img/Achieve/img6.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225">
 
                             <div class="card-body">
                                 <h4 class="card-title">Featured in Mann ki baat – 27 January 2019
-                                    Hon'ble Prime Minister of India (PMO) spoke about our Team and Achievements</h4>
+                                    Hon'ble Prime Minister of India spoke about our Team &amp; Achievements</h4>
 
                                 <div class="d-flex justify-content-between align-items-center">
 
@@ -282,8 +330,8 @@
                             <img src="IICFinal/img/Achieve/lbr.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225">
 
                             <div class="card-body">
-                                <h4 class="card-title">The VSLV Team, registered Limca Book
-                                    of Records </h4>
+                                <h4 class="card-title">The VSLV Team was registered in Limca Book
+                                    of Records for achievements.</h4>
 
                                 <div class="d-flex justify-content-between align-items-center">
 
@@ -295,10 +343,10 @@
 
                     <div class="col-md-4" data-aos="fade-up">
                         <div class="card mb-4 shadow-m">
-                            <img src="IICFinal/img/Achieve/img12.png" class="bd-placeholder-img card-img-top" width="100%" height="225">
+                            <img src="IICFinal/img/Achieve/img12.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225">
 
                             <div class="card-body">
-                                <h4 class="card-title">Our Team at One day visit at DRDO Integrated Test Range Chandipur</h4>
+                                <h4 class="card-title">Our Team  was opertuned to have a one day visit  at DRDO, Integrated Test Range Chandipur.</h4>
 
                                 <div class="d-flex justify-content-between align-items-center">
 
@@ -312,10 +360,10 @@
 
                     <div class="col-md-4" data-aos="fade-up">
                         <div class="card mb-4 shadow-m">
-                            <img src="IICFinal/img/Achieve/img16.png" class="bd-placeholder-img card-img-top" width="100%" height="225">
+                            <img src="IICFinal/img/Achieve/img16.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225">
 
                             <div class="card-body">
-                                <h4 class="card-title">Invited at Innovision, NITRourkela - Annual TechFest of National Institute of Technology,
+                                <h4 class="card-title">The VSLV team was Invited in Innovision, NIT Rourkela - Annual Tech Fest of National Institute of Technology,
                                     Rourkela</h4>
 
                             </div>
@@ -329,8 +377,8 @@
                             <img src="IICFinal/img/Achieve/ann.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225">
 
                             <div class="card-body">
-                                <h4 class="card-title">Grand Winner of Anveshan 2018 Make
-                                    For India Innovation contest </h4>
+                                <h4 class="card-title">Our VSLV Team won Anveshan 2018 Make
+                                    For India Innovation contest. </h4>
 
                             </div>
                         </div>
@@ -339,10 +387,10 @@
 
                     <div class="col-md-4" data-aos="fade-up">
                         <div class="card mb-4 shadow-m">
-                            <img src="IICFinal/img/Achieve/img4.png" class="bd-placeholder-img card-img-top" width="100%" height="225">
+                            <img src="IICFinal/img/Achieve/img4.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225">
 
                             <div class="card-body">
-                                <h4 class="card-title">Our VSLVTeam with Dr. PramodMisra (Principal Secretary to Hon’ble Prime Minister) along with IAS Samarth Verma (Ex-collector Sambalpur).</h4>
+                                <h4 class="card-title">Our VSLV Team had a fortunate chance to meet with Dr. PramodMisra (Principal Secretary to Hon’ble Prime Minister) along with IAS Samarth Verma (Ex-collector Sambalpur).</h4>
 
                             </div>
                         </div>
@@ -422,7 +470,7 @@
 
                     <div class="col-md-4" data-aos="fade-up">
                         <div class="card mb-4 shadow-m">
-                            <img src="IICFinal/img/Achieve/imgE34.png" class="bd-placeholder-img card-img-top" width="100%" height="225">
+                            <img src="IICFinal/img/Achieve/imgE34.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225">
 
                             <div class="card-body">
                                 <h4 class="card-title">The VSLV Team of Idea Club interacted with Dr. GSatheesh Reddy, Chairman DRDO Scientific Advisor to Raksha Mantri</h4>
@@ -460,7 +508,7 @@
 
                     <div class="col-md-4" data-aos="fade-up">
                         <div class="card mb-4 shadow-m">
-                            <img src="IICFinal/img/Achieve/l4.png" class="bd-placeholder-img card-img-top" width="100%" height="225">
+                            <img src="IICFinal/img/Achieve/l4.jpg" class="bd-placeholder-img card-img-top" width="100%" height="225">
 
                             <div class="card-body">
                                 <h4 class="card-title">The VSLVRocket and Satellite Team of Idea Club won the Champions trophy and the Best
