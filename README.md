@@ -3,3 +3,5 @@
 <p><a href=https://github.com/prasenjitghose36>Prasenjit Ghose</a></p>
 <p><a href=https://github.com/rajdas2001>Raj Das</a></p>
 <p><a href=https://github.com/patelaryan7751>Aryan Patel</a></p>
+<p><a href="">Chandrasekhar</a></p>
+<p><a href="">Swaroop</a></p>
